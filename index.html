@@ -1,0 +1,24 @@
+<!--html source code-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Number Guess Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Guess the Winning Number</h2>
+<p>Enter a number with 6 digits:</p>
+<form action="logs.log" method="post">
+<input type="number" id="userNumber" min="100000" max="999999" placeholder="Your guess">
+<button onclick="checkNumber()" id="submit">Submit</button>
+
+<p id="message"></p>
+
+<p id="TM">Powered by Anasawy</p>
+</form>
+<script src="script.js"></script>
+
+</body>
+</html>
